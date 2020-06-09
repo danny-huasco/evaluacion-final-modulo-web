@@ -1,0 +1,14 @@
+/*---menu principal---*/
+#menu-ppal{
+    background-color:lightblue;
+}
+
+#logo-menu{
+    width: 100%;
+    max-width: 350px;
+}
+/*---footer---*/
+#footer-ppal{
+    background-color: blue;
+    height: 100px;
+}
