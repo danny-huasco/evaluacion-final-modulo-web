@@ -2,13 +2,55 @@
 #menu-ppal{
     background-color:lightblue;
 }
-
+#navbarNav a{
+    color: black;
+    font-style: initial;
+    font-size: 30px;
+}
 #logo-menu{
     width: 100%;
     max-width: 350px;
 }
-/*---footer---*/
-#footer-ppal{
-    background-color: blue;
-    height: 100px;
+#cont-menu{
+    /*lograr un cuadro transparente que deje ver bien el menu*/
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 180px;
 }
+/*---body---*/
+#carouselExampleFade img{
+    max-height: 800px;
+    max-width: 100%;
+}
+#foto-art{
+    max-width: 500px;
+    float: left;
+    margin: 10px;
+}
+body{
+    background-image: url('/fondo-nubes.jpg');
+}
+article{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+/*---footer---*/
+footer{
+    background-color:lightblue;
+}
+.div-footer{
+    display: inline-flex;
+}
+.vertical{
+    display: inline-flex;
+    width: 1px;
+    background-color: black;
+    height: 100%;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
