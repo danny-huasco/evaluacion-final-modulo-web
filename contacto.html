@@ -52,26 +52,57 @@
           </div>
     </nav>
     </header>
-    <main class="container text-center">
-        <h1>contactanos</h1>
-        <h4>si tienes ideas que aportar, consultas que hacer o solo quieres decirnos algo, esta es tu oportunidad!</h4>
-        <form action="#" method="post">            
+    <br><br>
+    <main class="container text-center" id="cont-contacto">
+      <br><br>
+        <h1>Envíanos un mensaje!</h1>
+        <h4>Si tienes ideas que aportar, consultas que hacer o solo quieres decirnos algo, esta es tu oportunidad!</h4>
+        <form action="#" method="post">  
+          <br><br>          
             <div class="form-group">
                 <label for="nombre">Nombre:</label>
                 <input type="text" class="form-control" name="" id="nombre">
             </div>
+            <br><br>
             <div class="form-group">
                 <label for="mail">Email:</label>
                 <input type="email" class="form-control" name="" id="mail">
-            </div>            
+            </div>        
+            <br><br>    
             <div class="form-group">
                 <label for="nombre">Mensaje:</label>
                 <input type="text" class="form-control" name="" id="texto">
             </div>
-            <button type="submit" class="btn btn-outline-info">Enviar Mensaje</button>
+            <br>
+            <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#msj-enviado">Enviar Mensaje</button>
+
+            <div class="modal fade" id="msj-enviado" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Mensaje enviado</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="lead">Tu mensaje fue enviado con éxito<br>¡te responderemos luego!</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Comprendido</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <br>
+            <br>
         </form>
     </main>
     
+    <br>
+    <br>
+    <br>
     <footer class="container-fluid" id="footer-ppal">
       <div class="container text-center" id="inner-footer">
         <p class="display-4">esto es un footer</p>

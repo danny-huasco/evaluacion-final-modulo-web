@@ -32,6 +32,48 @@ body{
 article{
     background-color: rgba(255, 255, 255, 0.7);
 }
+.textoQS{
+    margin: 20px;
+}
+#fondo-banner{
+    width: 100%;
+}
+.img-galeria{
+    display: inline-flex;
+    max-width: 49%;
+    margin: 5px;
+}
+/*---actividades---*/
+#art-activ{
+    background-color: rgba(89, 247, 168, 0.5);
+}
+#subt{
+    font-size: 30px;
+}
+
+/*---formulario de contacto---*/
+form label{
+    font-weight: bold;
+    font-size: 20px;
+}
+form input{
+    border-radius: 8px;
+}
+#nombre{
+    max-width: 100%;
+}
+#mail{
+    max-width: 100%;
+}
+#texto{
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 550px;
+}
+#cont-contacto{
+    background-color: rgba(252, 222, 140, 0.548);
+}
+
 /*---footer---*/
 footer{
     background-color:lightblue;
