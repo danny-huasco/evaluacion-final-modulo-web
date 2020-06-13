@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="/estilos.css">    
+    <title>Corporación Adapta Chile</title>
+  </head>
+  <body>
+    <header class="container-fluid" id="menu-ppal">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" id="fondo-logo">
+          <a class="navbar-brand" href="index.html">
+            <img src="/Logo Adapta (1).png" id="logo-menu" alt="" loading="lazy">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Quienes somos</a>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Postulaciones
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="postulacion-beneficiarios.html">Beneficiarios</a>
+                  <a class="dropdown-item" href="postulacion-voluntarios.html">Voluntarios</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="actividades.html" >Actividades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html" >Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html" >Contacto</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#modalIngreso">ingresar</button>
+            <div class="modal fade" id="modalIngreso" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ingresa a tus datos como participante de Adapta</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Ingresa tu nombre:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="beneficiario.html"><button type="button" class="btn btn-primary" onclick="">Beneficiario</button></a>
+                    <a href="voluntario.html"><button type="button" class="btn btn-primary" onclick="">Monitor</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </nav>
+    </header>
+    
+    <div class="container text-center">
+        <h1 class="display-4">Bienvenido a tu información como Beneficiario</h1>
+        <p class="lead">Aquí encontrarás toda la información que necesitas en el transcurso de esta temporada de talleres.</p>
+        <br><br>
+        <div class="container text-justify">
+            <img src="/perfil.png" alt="">
+            <h2>nombre:.............</h2>
+            <h2>rut:................</h2>
+            <h2>edad:.............</h2>
+            <h2>Diagnóstico:.........</h2>
+            <h2>Apoderado:...........</h2>
+            <h2>contacto:..........</h2>
+        </div>
+        <br>
+        <h1>Tu Monitor:</h1>
+        <br>
+        <div class="container text-justify">
+            <img src="/perfil.png" alt="">
+            <h2>nombre:.............</h2>
+            <h2>rut:................</h2>
+            <h2>edad:.........</h2>
+            <h2>Contacto:.........</h2>
+        </div>
+        <br>
+        <div class="container text-center">
+            <h1>deporte actual</h1>
+            <h4>...................</h4>
+        </div>
+        <br><br>
+        <a href="index.html"><button type="button" class="btn btn-info btn-lg btn-block">Cerrar Sesión</button></a>
+        <br><br>
+
+
+    </div>
+    
+    <footer class="container-fluid" id="footer-ppal">
+      <div class="container text-center" id="inner-footer">
+        <p class="display-4">esto es un footer</p>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -49,13 +49,41 @@
                 <a class="nav-link" href="contacto.html" >Contacto</a>
               </li>
             </ul>
+            <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#modalIngreso">ingresar</button>
+            <div class="modal fade" id="modalIngreso" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ingresa a tus datos como participante de Adapta</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Ingresa tu nombre:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="beneficiario.html"><button type="button" class="btn btn-primary" onclick="">Beneficiario</button></a>
+                    <a href="voluntario.html"><button type="button" class="btn btn-primary" onclick="">Monitor</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
     </nav>
     </header>
 
     <div class="container text-center">
-        <h1>titulo</h1>
-        <p>incluir informacion que se requiere, derechos y deberes, fotos y un mail/formulario a donde contactarse</p>
+        <h1 class="display-4">¿Quieres participar como voluntario?</h1>
+        <br>
+        <p class="lead">En realidad no es mucho lo que pedimos, solo debes asegurarte de ser responsable
+          y pasarlo bien en cada sesión.
+        </p>
 
     </div>
     
